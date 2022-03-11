@@ -3610,15 +3610,15 @@ button.btn--pill {
  * ## hero content
  * ------------------------------------------------------------------- */
 .s-hero__content {
-  height: 100%;
-  z-index:3;
+  user-select: none;
   -ms-flex-align: center;
+  max-width: 100%;
+  position: absolute;
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
-  padding-top: 16vh;
+  padding-top: 30vh;
   padding-bottom: 12vh;
-  position: relative;
 }
 
 .s-hero__content h1 {
@@ -4853,18 +4853,16 @@ button.btn--pill {
 }
 
 #particles-js{
-    z-index: 2;
+    position: absolute;
+    z-index: 4;
     width: 100%;
     height: 100%;
-    /* background-color: #b61924; */
-    /* background-image: url(../images/header-bg-3000.jpg); */
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+     /* background: rgb(0,0,0);
+background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(28,28,32,1) 19%, rgba(255,255,255,1) 100%);  */
     }
     .particles-js-canvas-el {
             width:100% !important;
-            height:100vh !important;
+            height:100% !important;
     }
 
   
